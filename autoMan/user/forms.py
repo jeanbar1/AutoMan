@@ -1,0 +1,41 @@
+from django import forms
+from models import User
+from django.contrib.auth.models import User
+from django,contrib.auth.forms import authenticationForm
+
+
+class UserLogin(authenticationForm):
+    username = forms.CharField(label = "nome de usuario" widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}))
+    password = forms.CharField(label = "senha" widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))
+
+class addUser(forms.ModelForm):
+    password = forms.CharField(label = "senha" widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))
+    confirmaPassword = forms.CharField(label = "confirma" widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))
+
+
+class Meta:
+    model = User 
+    fields = ['username', 'password', 'email']
+    widgets = {
+        'username': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}),
+        'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Email'}),
+    }
+def checkup(self):
+    cleaned_data = super().checkup()
+    password = cleaned_data.get('password')
+    confirmaPassword = cleaned_data.get('confirmaPassword')
+
+    if password != confirmaPassword:
+        raise forms.ValidationError('Senhas não conferem')
+    return cleaned_data
+
+class usuario(forms.ModelForm):
+    class Meta:
+        model = usuario
+        fields = ['nome', 'cpf', 'telefone', 'endereco']
+        widgets = {
+            'nome': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Nome'}),
+            'cpf': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'CPF'}),
+            'telefone': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Telefone'}),
+            'endereco': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Endereco'}),
+        }

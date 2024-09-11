@@ -1,0 +1,58 @@
+"@startuml diagrama"
+
+class User {
+    - id : Integer
+    - username : CharField
+    - password : CharField
+    - email : EmailField
+    - first_name : CharField
+    - last_name : CharField
+    + __str__(self) : String
+    + obter_veiculos(self) : List[Veículo]
+    + obter_oficina(self) : Oficina
+}
+
+class Veículo {
+    - id : Integer
+    - modelo : CharField
+    - marca : CharField
+    - ano : Integer
+    - placa : CharField
+    - proprietario : User
+    + __str__(self) : String
+    + obter_historico_manutencao(self) : List[Manutenção]
+    + atualizar_detalhes(self, modelo, marca, ano, placa) : void
+}
+
+class Manutenção {
+    - id : Integer
+    - tipo_servico : CharField
+    - data : DateField
+    - custo : DecimalField
+    - quilometragem : Integer
+    - veiculo : Veículo
+    - oficina : Oficina
+    + __str__(self) : String
+    + atualizar_manutencao(self, tipo_servico, data, custo, quilometragem) : void
+    + obter_veiculo(self) : Veículo
+    + obter_oficina(self) : Oficina
+}
+
+class Oficina {
+    - id : Integer
+    - nome : CharField
+    - endereco : CharField
+    - telefone : CharField
+    - especialidades : TextField
+    - usuario : User
+    + __str__(self) : String
+    + obter_registros_manutencao(self) : List[Manutenção]
+    + atualizar_detalhes(self, nome, endereco, telefone, especialidades) : void
+}
+
+User "1" -- "N" Veículo : possui >
+Veículo "1" -- "N" Manutenção : tem >
+Manutenção "N" -- "1" Oficina : registrado por >
+User "1" -- "1" Oficina : administra >
+
+@enduml
