@@ -1,112 +1,106 @@
 from django.shortcuts import get_object_or_404, redirect, render
-from django.contrib.auth import login
+from django.contrib.auth import login as auth_login, logout as auth_logout
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth import logout
 from django.core.exceptions import PermissionDenied
-from .forms import UserLogin, addUser, Usuario
-from user.models import User
-from django.contrib.auth.models import User 
-# Create your views here.
+from .forms import UserLogin, addUser, UsuarioForm
+from django.contrib.auth.models import User
 
 
-#---------------------------------------------------------------------------------
+#----------------------------------------------------------------
 @login_required
-def addUser(request):
+def useradd(request):
     if request.method == 'POST':
-        USERFORM = user(request.POST)
-        USUARIO = usuario(request.POST, request.FILES)
+        USERFORM = addUser(request.POST)
+        USUARIO = UsuarioForm(request.POST, request.FILES)
 
-        #validando user
-
-        if USUARIO.is_valid() and USUARIO.is_valid():
+        if USERFORM.is_valid() and USUARIO.is_valid():
             user = USERFORM.save(commit=False)
-            user.set_password(USUARIO.cleaned_data['password'])
+            user.set_password(USERFORM.cleaned_data['password'])
             user.save()
 
-        #validado usuario 
+            usuario = USUARIO.save(commit=False)
+            usuario.user = user
+            usuario.save()
 
-        usuario = USUARIO.save(commit=False)
-        usuario.user = user
-        usuario.save()
-
-        login(request, user)
-        return redirect('login')
+            auth_login(request, user)
+            return redirect('home')
 
     else:
-        USERFORM = UserLogin()
-        USUARIO = Usuario()    
-    
+        USERFORM = addUser()
+        USUARIO = UsuarioForm()
+
     return render(request, 'addUser.html', {'USUARIO': USUARIO, 'USERFORM': USERFORM})
 
 
-    #---------------------------------------------------------------------------------
-
+#----------------------------------------------------------------
 
 @login_required
 def editar(request, usuario_id):
-    usuario = get_object_or_404(usuario, pk=usuario_id)
+    usuario = get_object_or_404(Usuario, pk=usuario_id)
 
     if request.user.is_staff or request.user == usuario.user:
         if request.method == 'POST':
-            edt = usuario(request.POST, request.FILES, instance=usuario)
+            edt = UsuarioForm(request.POST, request.FILES, instance=usuario)
 
             if edt.is_valid():
                 edt.save()
-                return redirect('home', {'usuario':'usuario'})
+                return redirect('home')
         else:
-            edt = usuario(instance=usuario)
-        return redirect('editar', {'edt': edt, 'usuario': usuario})
+            edt = UsuarioForm(instance=usuario)
+        return render(request, 'editar.html', {'edt': edt, 'usuario': usuario})
     else:
-        raise PermissionDenied 
-    
-#---------------------------------------------------------------------------------
+        raise PermissionDenied
 
 
 @login_required
 def perfil(request):
-    usuario = get_object_or_404(Usuario, pk=request.user)
+    usuario = get_object_or_404(Usuario, pk=request.user.id)
     
     return render(request, 'perfil.html', {'usuario': usuario})
 
-#---------------------------------------------------------------------------------
+
+#----------------------------------------------------------------
 
 @login_required
 def excluirP(request):
     if request.method == 'POST':
-        User = get_object_or_404(User, pk=id)
+        user = get_object_or_404(User, pk=request.user.id)
 
         try: 
-            usuario = Usuario.objects.get(user=User)
-            Usuario.delete()
+            usuario = Usuario.objects.get(user=user)
+            usuario.delete()
         except Usuario.DoesNotExist:
             pass
         
-        User.delete()
+        user.delete()
 
         return redirect('login')
     else:
-        return render(request, 'user/excluirP.html', {'user': get_object_or_404(User, pk=id)})
+        return render(request, 'user/excluirP.html', {'user': get_object_or_404(User, pk=request.user.id)})
 
-#---------------------------------------------------------------------------------
 
-def login(request):
+
+#----------------------------------------------------------------
+
+
+def user_login(request):
     if request.method == 'POST':
-        login = UserLogin(data = request.POST)
+        login_form = UserLogin(data=request.POST)
 
-        if login.is_valid():
-            user = login.get_user()
-            login(request, user)
+        if login_form.is_valid():
+            user = login_form.get_user()
+            auth_login(request, user)
 
             return redirect('home')
     else:
-        login = UserLogin()
+        login_form = UserLogin()
 
-    return render(request, 'login/login.html', {'login': login})
+    return render(request, 'login/login.html', {'login': login_form})
 
-#---------------------------------------------------------------------------------
 
-def logout(request):
-    logout(request)
+#----------------------------------------------------------------
+
+
+def user_logout(request):
+    auth_logout(request)
     return redirect('login')
-
-#---------------------------------------------------------------------------------

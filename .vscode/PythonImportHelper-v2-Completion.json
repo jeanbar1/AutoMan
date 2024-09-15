@@ -1,0 +1,914 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionDenied",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "staff_member_required",
+        "importPath": "django.contrib.admin.views.decorators",
+        "description": "django.contrib.admin.views.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.admin.views.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.asgi",
+        "description": "autoMan.autoMan.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "autoMan.autoMan.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-!g7ov^ddhd3ay%g7=r5r$i*q@%j6$sk6mhivrkoe2mccv)92h('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-!g7ov^ddhd3ay%g7=r5r$i*q@%j6$sk6mhivrkoe2mccv)92h('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'autoMan.urls'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "ROOT_URLCONF = 'autoMan.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'autoMan.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.urls",
+        "description": "autoMan.autoMan.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "detail": "autoMan.autoMan.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.wsgi",
+        "description": "autoMan.autoMan.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "autoMan.autoMan.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "ManutencaoConfig",
+        "kind": 6,
+        "importPath": "autoMan.manutencao.apps",
+        "description": "autoMan.manutencao.apps",
+        "peekOfCode": "class ManutencaoConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'manutencao'",
+        "detail": "autoMan.manutencao.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ManutencaoF",
+        "kind": 6,
+        "importPath": "autoMan.manutencao.forms",
+        "description": "autoMan.manutencao.forms",
+        "peekOfCode": "class ManutencaoF(forms.ModelForm):\n    class Meta:\n        model = Manutencao\n        fields = ['veiculo', 'tipoServico', 'data_manutencao', 'preco']\n        widgets = {\n            'veiculo': forms.Select(attrs={'class': 'form-control'}),\n            'tipoServico': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'tipoServico'}),\n            'data_manutencao': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),\n            'preco': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Preço'}),\n        }",
+        "detail": "autoMan.manutencao.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Manutencao",
+        "kind": 6,
+        "importPath": "autoMan.manutencao.models",
+        "description": "autoMan.manutencao.models",
+        "peekOfCode": "class Manutencao(models.Model):\n    veiculo = models.ForeignKey('veiculo.Veiculo', on_delete=models.CASCADE)\n    oficina = models.ForeignKey('oficina.Oficina', on_delete=models.CASCADE)\n    data = models.DateField()\n    tipoServico = models.CharField(max_length=100)\n    custo = models.DecimalField(max_digits=10, decimal_places=2)",
+        "detail": "autoMan.manutencao.models",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaAdd",
+        "kind": 2,
+        "importPath": "autoMan.manutencao.views",
+        "description": "autoMan.manutencao.views",
+        "peekOfCode": "def oficinaAdd(request):\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST)\n        if manu.is_valid():\n            manutencao = manu.save(commit = False)\n            manutencao.usuario = request.user\n            manutencao.save()\n            return redirect('home')\n    else:\n        manu = ManutencaoF()",
+        "detail": "autoMan.manutencao.views",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaListar",
+        "kind": 2,
+        "importPath": "autoMan.manutencao.views",
+        "description": "autoMan.manutencao.views",
+        "peekOfCode": "def oficinaListar(request):\n    usuario = request.user\n    manutencao = Manutencao.objects.filter(usuario = usuario)\n    return render(request, 'manutencao/oficinaListar.html', {'manutencao': manutencao})\n#---------------------------------------------------------------------------------\n@login_required\ndef oficinaEditar(request, id):\n    manutencao = get_object_or_404(Manutencao, pk = id)\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST, instance= manutencao)",
+        "detail": "autoMan.manutencao.views",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaEditar",
+        "kind": 2,
+        "importPath": "autoMan.manutencao.views",
+        "description": "autoMan.manutencao.views",
+        "peekOfCode": "def oficinaEditar(request, id):\n    manutencao = get_object_or_404(Manutencao, pk = id)\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST, instance= manutencao)\n        if manu.is_valid():\n            manu.save()\n            return redirect('home')\n    else:\n        manu = ManutencaoF(instance = manutencao)\n    return render(request, 'manutencao/oficinaEditar.html', {'manutencao': manu})",
+        "detail": "autoMan.manutencao.views",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaDeletar",
+        "kind": 2,
+        "importPath": "autoMan.manutencao.views",
+        "description": "autoMan.manutencao.views",
+        "peekOfCode": "def oficinaDeletar(request, id):\n        manutencao = get_object_or_404(Manutencao, pk=id, usuario=request.user)\n        if request.method == 'POST':\n            manutencao.delete()\n            return redirect('home')\n        return render(request, 'manutencao/oficinaDeletar.html', {'manutencao': manutencao})\n#---------------------------------------------------------------------------------",
+        "detail": "autoMan.manutencao.views",
+        "documentation": {}
+    },
+    {
+        "label": "OficinaConfig",
+        "kind": 6,
+        "importPath": "autoMan.oficina.apps",
+        "description": "autoMan.oficina.apps",
+        "peekOfCode": "class OficinaConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'oficina'",
+        "detail": "autoMan.oficina.apps",
+        "documentation": {}
+    },
+    {
+        "label": "OficinaF",
+        "kind": 6,
+        "importPath": "autoMan.oficina.forms",
+        "description": "autoMan.oficina.forms",
+        "peekOfCode": "class OficinaF(forms.ModelForm):\n    class Meta:\n        model = Oficina\n        fields = ['nome', 'endereco', 'telefone', 'especialidade']\n        def __init__(self, *args, **kwargs):\n            super(OficinaF, self).__init__(*args, **kwargs)\n            for field in self.fields:\n                self.fields[field].widget.attrs.update({'class': 'form-control'})",
+        "detail": "autoMan.oficina.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Oficina",
+        "kind": 6,
+        "importPath": "autoMan.oficina.models",
+        "description": "autoMan.oficina.models",
+        "peekOfCode": "class Oficina(models.Model):\n    nome = models.CharField(max_length=200)\n    endereco = models.CharField(max_length=500)\n    telefone = models.CharField(max_length=11)\n    especialidade = models.CharField(max_length=100)\n    usuario = models.ForeignKey(User, on_delete=models.CASCADE) \n    def __str__(self):\n        return self.modelo",
+        "detail": "autoMan.oficina.models",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaAdd",
+        "kind": 2,
+        "importPath": "autoMan.oficina.views",
+        "description": "autoMan.oficina.views",
+        "peekOfCode": "def oficinaAdd(request):\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES)\n        if ofi.is_valid():\n            ofi.save()\n            return redirect('oficina')\n    else:\n        ofi = OficinaF()\n    return render(request, 'oficina/oficinaAdd.html',{'ofi' : OficinaF})\n#---------------------------------------------------------------------------------",
+        "detail": "autoMan.oficina.views",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaListar",
+        "kind": 2,
+        "importPath": "autoMan.oficina.views",
+        "description": "autoMan.oficina.views",
+        "peekOfCode": "def oficinaListar(request):\n    oficinas =  get_object_or_404(Oficina)\n    return render(request, 'oficina/oficinaListar.html', {'oficinas' : oficinas})\n#---------------------------------------------------------------------------------\n@login_required\ndef oficinaEditar(request):\n    ofi = get_object_or_404(Oficina, pk = id)\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES, instance = ofi)\n        if ofi.is_valid():",
+        "detail": "autoMan.oficina.views",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaEditar",
+        "kind": 2,
+        "importPath": "autoMan.oficina.views",
+        "description": "autoMan.oficina.views",
+        "peekOfCode": "def oficinaEditar(request):\n    ofi = get_object_or_404(Oficina, pk = id)\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES, instance = ofi)\n        if ofi.is_valid():\n            ofi.save()\n            return redirect('oficinaListar')\n    else:\n        ofi = OficinaF(instance = ofi)\n    return render(request, 'oficina/oficinaEditar.html', {'ofi' : ofi})",
+        "detail": "autoMan.oficina.views",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaDeletar",
+        "kind": 2,
+        "importPath": "autoMan.oficina.views",
+        "description": "autoMan.oficina.views",
+        "peekOfCode": "def oficinaDeletar(request, id):\n    ofi = get_object_or_404(Oficina, pk = id, usuario = request.user)\n    if request.method == 'POST':\n        ofi.delete()\n        return redirect('oficinaListar')\n    return render(request, 'oficina/oficinaDeletar.html', {'ofi' : ofi})\n#---------------------------------------------------------------------------------",
+        "detail": "autoMan.oficina.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserConfig",
+        "kind": 6,
+        "importPath": "autoMan.user.apps",
+        "description": "autoMan.user.apps",
+        "peekOfCode": "class UserConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user'",
+        "detail": "autoMan.user.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "autoMan.user.forms",
+        "description": "autoMan.user.forms",
+        "peekOfCode": "class UserLogin(AuthenticationForm):\n    username = forms.CharField(label=\"nome de usuário\", widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}))\n    password = forms.CharField(label=\"senha\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\nclass addUser(forms.ModelForm):\n    password = forms.CharField(label=\"senha\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    confirmaPassword = forms.CharField(label=\"confirma\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    class Meta:\n        model = User\n        fields = ['username', 'password', 'email']\n        widgets = {",
+        "detail": "autoMan.user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "addUser",
+        "kind": 6,
+        "importPath": "autoMan.user.forms",
+        "description": "autoMan.user.forms",
+        "peekOfCode": "class addUser(forms.ModelForm):\n    password = forms.CharField(label=\"senha\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    confirmaPassword = forms.CharField(label=\"confirma\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    class Meta:\n        model = User\n        fields = ['username', 'password', 'email']\n        widgets = {\n            'username': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}),\n            'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Email'}),\n        }",
+        "detail": "autoMan.user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UsuarioForm",
+        "kind": 6,
+        "importPath": "autoMan.user.forms",
+        "description": "autoMan.user.forms",
+        "peekOfCode": "class UsuarioForm(forms.ModelForm):\n    class Meta:\n        model = Usuario\n        fields = ['nome', 'cpf', 'telefone', 'endereco']\n        widgets = {\n            'nome': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Nome'}),\n            'cpf': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'CPF'}),\n            'telefone': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Telefone'}),\n            'endereco': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Endereco'}),\n        }",
+        "detail": "autoMan.user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "autoMan.user.models",
+        "description": "autoMan.user.models",
+        "peekOfCode": "class Usuario(models.Model):\n    user = models.OneToOneField(User, on_delete = models.CASCADE)\n    nome = models.CharField(max_length= 100)\n    cpf = models.CharField(max_length= 11, unique=True)\n    telefone = models.CharField(max_length=11)\n    endereco = models.CharField(max_length=500)\n    def __str__(self):\n        return self.nome",
+        "detail": "autoMan.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "useradd",
+        "kind": 2,
+        "importPath": "autoMan.user.views",
+        "description": "autoMan.user.views",
+        "peekOfCode": "def useradd(request):\n    if request.method == 'POST':\n        USERFORM = addUser(request.POST)\n        USUARIO = UsuarioForm(request.POST, request.FILES)\n        if USERFORM.is_valid() and USUARIO.is_valid():\n            user = USERFORM.save(commit=False)\n            user.set_password(USERFORM.cleaned_data['password'])\n            user.save()\n            usuario = USUARIO.save(commit=False)\n            usuario.user = user",
+        "detail": "autoMan.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "editar",
+        "kind": 2,
+        "importPath": "autoMan.user.views",
+        "description": "autoMan.user.views",
+        "peekOfCode": "def editar(request, usuario_id):\n    usuario = get_object_or_404(Usuario, pk=usuario_id)\n    if request.user.is_staff or request.user == usuario.user:\n        if request.method == 'POST':\n            edt = UsuarioForm(request.POST, request.FILES, instance=usuario)\n            if edt.is_valid():\n                edt.save()\n                return redirect('home')\n        else:\n            edt = UsuarioForm(instance=usuario)",
+        "detail": "autoMan.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "perfil",
+        "kind": 2,
+        "importPath": "autoMan.user.views",
+        "description": "autoMan.user.views",
+        "peekOfCode": "def perfil(request):\n    usuario = get_object_or_404(Usuario, pk=request.user.id)\n    return render(request, 'perfil.html', {'usuario': usuario})\n#----------------------------------------------------------------\n@login_required\ndef excluirP(request):\n    if request.method == 'POST':\n        user = get_object_or_404(User, pk=request.user.id)\n        try: \n            usuario = Usuario.objects.get(user=user)",
+        "detail": "autoMan.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "excluirP",
+        "kind": 2,
+        "importPath": "autoMan.user.views",
+        "description": "autoMan.user.views",
+        "peekOfCode": "def excluirP(request):\n    if request.method == 'POST':\n        user = get_object_or_404(User, pk=request.user.id)\n        try: \n            usuario = Usuario.objects.get(user=user)\n            usuario.delete()\n        except Usuario.DoesNotExist:\n            pass\n        user.delete()\n        return redirect('login')",
+        "detail": "autoMan.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_login",
+        "kind": 2,
+        "importPath": "autoMan.user.views",
+        "description": "autoMan.user.views",
+        "peekOfCode": "def user_login(request):\n    if request.method == 'POST':\n        login_form = UserLogin(data=request.POST)\n        if login_form.is_valid():\n            user = login_form.get_user()\n            auth_login(request, user)\n            return redirect('home')\n    else:\n        login_form = UserLogin()\n    return render(request, 'login/login.html', {'login': login_form})",
+        "detail": "autoMan.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_logout",
+        "kind": 2,
+        "importPath": "autoMan.user.views",
+        "description": "autoMan.user.views",
+        "peekOfCode": "def user_logout(request):\n    auth_logout(request)\n    return redirect('login')",
+        "detail": "autoMan.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "VeiculoConfig",
+        "kind": 6,
+        "importPath": "autoMan.veiculo.apps",
+        "description": "autoMan.veiculo.apps",
+        "peekOfCode": "class VeiculoConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'veiculo'",
+        "detail": "autoMan.veiculo.apps",
+        "documentation": {}
+    },
+    {
+        "label": "VeiculoF",
+        "kind": 6,
+        "importPath": "autoMan.veiculo.forms",
+        "description": "autoMan.veiculo.forms",
+        "peekOfCode": "class VeiculoF(forms.ModelForm):\n    class Meta:\n        model = Veiculo\n        fields = ['marca', 'modelo', 'ano', 'cor', 'proprietario', 'placa']\n        widgets = {\n            'marca': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Marca'}),\n            'modelo': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Modelo'}),\n            'ano': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Ano'}),\n            'cor': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Cor'}),\n            'proprietario': forms.Select(attrs={'class': 'form-control'}),",
+        "detail": "autoMan.veiculo.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Veiculo",
+        "kind": 6,
+        "importPath": "autoMan.veiculo.models",
+        "description": "autoMan.veiculo.models",
+        "peekOfCode": "class Veiculo(models.Model):\n    modelo = models.CharField(max_length=100)  \n    marca = models.CharField(max_length=100)   \n    ano = models.IntegerField()\n    placa = models.CharField(max_length=10)   \n    proprietario = models.ForeignKey(User, on_delete=models.CASCADE)\n    cor = models.CharField(max_length=50)      \n    def __str__(self):\n        return self.modelo",
+        "detail": "autoMan.veiculo.models",
+        "documentation": {}
+    },
+    {
+        "label": "veiculoAdd",
+        "kind": 2,
+        "importPath": "autoMan.veiculo.views",
+        "description": "autoMan.veiculo.views",
+        "peekOfCode": "def veiculoAdd(request):\n    if request.method == 'POST':\n        veiculo = VeiculoF(request.POST)\n        if veiculo.is_valid():\n            veiculo.save()\n            return redirect('veiculo')\n    else:\n        veiculo = VeiculoF()\n    return render(request, 'veiculo/veiculo_add.html', {'veiculo': veiculo})\n#---------------------------------------------------------------------------------",
+        "detail": "autoMan.veiculo.views",
+        "documentation": {}
+    },
+    {
+        "label": "veiculoEditar",
+        "kind": 2,
+        "importPath": "autoMan.veiculo.views",
+        "description": "autoMan.veiculo.views",
+        "peekOfCode": "def veiculoEditar(request, id):\n    veiculo = get_object_or_404(Veiculo, pk = id)\n    if request.method == 'POST':\n        veicu = VeiculoF(request.POST, instance = veiculo)\n        if veicu.is_valid():\n            veicu.save()\n            return redirect('veiculoLista')\n    else:\n        veicu = VeiculoF(instance = veiculo)\n    return render(request, 'veiculo/veiculoEditar.html', {'veiculo': veiculo})",
+        "detail": "autoMan.veiculo.views",
+        "documentation": {}
+    },
+    {
+        "label": "veiculoDeletar",
+        "kind": 2,
+        "importPath": "autoMan.veiculo.views",
+        "description": "autoMan.veiculo.views",
+        "peekOfCode": "def veiculoDeletar(request, id):\n    veiculo = get_object_or_404(Veiculo, pk = id, usuario = request.user)\n    if request.method == 'POST':\n        veiculo.delete()\n        return redirect('veiculoLista')\n    return render(request, 'veiculo/veiculoDeletar.html', {'veiculo': veiculo})\n#----------------------------------------------------------------------------------\ndef veiculoLista(request ):\n    veicu = Veiculo.objects.all()\n    return render(request, 'veiculo/veiculoListar.html', {'veiculo': veicu})",
+        "detail": "autoMan.veiculo.views",
+        "documentation": {}
+    },
+    {
+        "label": "veiculoLista",
+        "kind": 2,
+        "importPath": "autoMan.veiculo.views",
+        "description": "autoMan.veiculo.views",
+        "peekOfCode": "def veiculoLista(request ):\n    veicu = Veiculo.objects.all()\n    return render(request, 'veiculo/veiculoListar.html', {'veiculo': veicu})\n#----------------------------------------------------------------------------------\n@login_required\ndef veiculoDetalhe(request, id):\n    veicu = get_object_or_404(Veiculo, pk=id)\n    return render(request,'veiculo/veiculoDetalhe.html', {'veiculo': veicu})\n#----------------------------------------------------------------------------------",
+        "detail": "autoMan.veiculo.views",
+        "documentation": {}
+    },
+    {
+        "label": "veiculoDetalhe",
+        "kind": 2,
+        "importPath": "autoMan.veiculo.views",
+        "description": "autoMan.veiculo.views",
+        "peekOfCode": "def veiculoDetalhe(request, id):\n    veicu = get_object_or_404(Veiculo, pk=id)\n    return render(request,'veiculo/veiculoDetalhe.html', {'veiculo': veicu})\n#----------------------------------------------------------------------------------",
+        "detail": "autoMan.veiculo.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "autoMan.manage",
+        "description": "autoMan.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'autoMan.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "autoMan.manage",
+        "documentation": {}
+    }
+]

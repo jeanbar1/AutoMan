@@ -25,12 +25,12 @@ def veiculoEditar(request, id):
     veiculo = get_object_or_404(Veiculo, pk = id)
 
     if request.method == 'POST':
-        veicu = VeiculoF(request.POST, instace = veiculo)
+        veicu = VeiculoF(request.POST, instance = veiculo)
         if veicu.is_valid():
             veicu.save()
             return redirect('veiculoLista')
     else:
-        veicu = VeiculoF(instace = veiculo)
+        veicu = VeiculoF(instance = veiculo)
     return render(request, 'veiculo/veiculoEditar.html', {'veiculo': veiculo})
 
 #---------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ def veiculoDeletar(request, id):
 #----------------------------------------------------------------------------------
 
 def veiculoLista(request ):
-    veicu = VeiculoF(request.get)
+    veicu = Veiculo.objects.all()
         
     return render(request, 'veiculo/veiculoListar.html', {'veiculo': veicu})
 
