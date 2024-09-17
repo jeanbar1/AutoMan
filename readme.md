@@ -1,3 +1,5 @@
+Foi desenvolvido um sistema de gerenciamento que lida com veículos, oficinas, manutenções, e usuários na onde foi nomeado de "AutoMan"
+
 Funcionamento do Sistema de Registro de Manutenção de Veículos
 
 O sistema de Registro de Manutenção de Veículos é projetado para facilitar a gestão de veículos e suas manutenções, tanto para proprietários de veículos quanto para oficinas de manutenção. A seguir, descrevo como o sistema funcionará:
