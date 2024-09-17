@@ -1,4 +1,4 @@
-"@startuml diagrama"
+@startuml diagrama
 
 class User {
     - id : Integer
@@ -10,6 +10,11 @@ class User {
     + __str__(self) : String
     + obter_veiculos(self) : List[Veículo]
     + obter_oficina(self) : Oficina
+
+    + criar_usuario(username, email, password, first_name, last_name) : void
+    + ler_usuario(id) : User
+    + atualizar_usuario(id, username, email, first_name, last_name) : void
+    + deletar_usuario(id) : void
 }
 
 class Veículo {
@@ -22,6 +27,11 @@ class Veículo {
     + __str__(self) : String
     + obter_historico_manutencao(self) : List[Manutenção]
     + atualizar_detalhes(self, modelo, marca, ano, placa) : void
+
+    + criar_veiculo(modelo, marca, ano, placa, proprietario) : void
+    + ler_veiculo(id) : Veículo
+    + atualizar_veiculo(id, modelo, marca, ano, placa) : void
+    + deletar_veiculo(id) : void
 }
 
 class Manutenção {
@@ -36,6 +46,11 @@ class Manutenção {
     + atualizar_manutencao(self, tipo_servico, data, custo, quilometragem) : void
     + obter_veiculo(self) : Veículo
     + obter_oficina(self) : Oficina
+
+    + criar_manutencao(tipo_servico, data, custo, quilometragem, veiculo, oficina) : void
+    + ler_manutencao(id) : Manutenção
+    + atualizar_manutencao(id, tipo_servico, data, custo, quilometragem) : void
+    + deletar_manutencao(id) : void
 }
 
 class Oficina {
@@ -48,6 +63,11 @@ class Oficina {
     + __str__(self) : String
     + obter_registros_manutencao(self) : List[Manutenção]
     + atualizar_detalhes(self, nome, endereco, telefone, especialidades) : void
+
+    + criar_oficina(nome, endereco, telefone, especialidades, usuario) : void
+    + ler_oficina(id) : Oficina
+    + atualizar_oficina(id, nome, endereco, telefone, especialidades) : void
+    + deletar_oficina(id) : void
 }
 
 User "1" -- "N" Veículo : possui >
