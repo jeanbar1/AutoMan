@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Conta</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #007bff;
+      --secondary-color: #6c757d;
+      --body-bg: #f8f9fa;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--body-bg);
+      margin: 0;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 900px;
+    }
+
+    .form-control {
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+      padding: 0.75rem 1.25rem;
+      width: 100%;
+    }
+
+    .card-header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background-color: var(--primary-color);
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    .card-footer {
+      text-align: center;
+      padding: 1rem;
+      
+      
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <div class="card shadow-lg border-0 rounded-lg">
+            <div class="card-header">
+              <h3 class="font-weight-light my-4">Criar Conta</h3>
+            </div>
+            <div class="card-body">
+              <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                <div class="form-group">
+                  <label for="{{ USERFORM.username.id_for_label }}">Nome de usuário</label>
+                  {{ USERFORM.username }}
+                  {% if USERFORM.username.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USERFORM.username.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+                <div class="form-group">
+                  <label for="{{ USERFORM.email.id_for_label }}">Email</label>
+                  {{ USERFORM.email }}
+                  {% if USERFORM.email.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USERFORM.email.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+                <div class="form-group">
+                  <label for="{{ USERFORM.password.id_for_label }}">Senha</label>
+                  {{ USERFORM.password }}
+                  {% if USERFORM.password.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USERFORM.password.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+                <div class="form-group">
+                  <label for="{{ USERFORM.confirmaPassword.id_for_label }}">Confirmar Senha</label>
+                  {{ USERFORM.confirmaPassword }}
+                  {% if USERFORM.confirmaPassword.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USERFORM.confirmaPassword.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+                <hr class="my-4" />
+                <div class="form-group">
+                  <label for="{{ USUARIO.nome.id_for_label }}">Nome Completo</label>
+                  {{ USUARIO.nome }}
+                  {% if USUARIO.nome.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USUARIO.nome.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+              
+                <div class="form-group">
+                  <label for="{{ USUARIO.cpf.id_for_label }}">CPF</label>
+                  {{ USUARIO.cpf }}
+                  {% if USUARIO.cpf.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USUARIO.cpf.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+                
+                <div class="form-group">
+                  <label for="{{ USUARIO.telefone.id_for_label }}">Telefone</label>
+                  {{ USUARIO.telefone }}
+                  {% if USUARIO.telefone.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USUARIO.telefone.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+                <div class="form-group">
+                  <label for="{{ USUARIO.endereco.id_for_label }}">Endereço</label>
+                  {{ USUARIO.endereco }}
+                  {% if USUARIO.endereco.errors %}
+                    <div class="invalid-feedback">
+                      {% for error in USUARIO.endereco.errors %}
+                        <div>{{ error }}</div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+
+                <div class="form-group text-center">
+                  <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer">
+              <a href="{% url 'user_login' %}">Já tem uma conta? Faça o login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

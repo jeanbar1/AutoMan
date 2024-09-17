@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Confirmar Exclusão
+{% endblock %}
+
+{% block content %}
+
+    <div class="container my-5">
+
+        <div class="card shadow-sm border-danger">
+            <div class="card-header bg-danger text-white text-center">
+                <h3 class="card-title">Confirmação de Exclusão</h3>
+            </div>
+
+            <div class="card-body text-center">
+                <p class="lead mb-4">Você está prestes a excluir o perfil de {{ user.username }}. Deseja continuar?</p>
+                
+                <form method="post" action="{% url 'user_delete' id=user.id %}" class="d-inline">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger btn-lg">Sim, Excluir</button>
+                    <a href="{% url 'user_detail' usuario_id=user.id %}" class="btn btn-secondary btn-lg ms-3">Cancelar</a>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+{% endblock %}

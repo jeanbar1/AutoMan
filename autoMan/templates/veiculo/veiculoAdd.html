@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Adicionar Veículo{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Adicionar Veículo</h2>
+    
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Salvar Veículo</button>
+        <a href="{% url 'veiculoListar' %}" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+{% endblock %}

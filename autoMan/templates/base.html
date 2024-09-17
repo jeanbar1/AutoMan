@@ -1,0 +1,139 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Adicionar Manutenção - Automan</title>
+    <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+
+    <link href="{% static 'css/sb-admin-2.min.css' %}" rel="stylesheet">
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            background-image: url("{% static 'img/background.jpeg' %}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .content-wrapper {
+            flex: 1;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 60px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-container .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-container .form-group label {
+            font-weight: bold;
+        }
+        .form-container .form-group input,
+        .form-container .form-group select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+        }
+        .form-container .form-group button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+        }
+        .form-container .form-group button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <div class="content-wrapper">
+        <nav>
+            <div class="logo">
+                <a href="{% url 'manuListar' %}">Automan</a>
+            </div>
+            <div class="nav-links">
+                <a href="{% url 'veiculoListar' %}">Veículo</a>
+                <a href="{% url 'oficinaListar' %}">Oficina</a>
+                {% if user.is_authenticated %}
+                    <a href="{% url 'user_detail' user.id %}">Perfil</a>
+                    <a href="{% url 'userlogout' %}" class="text-danger">Sair</a>
+                {% else %}
+                    <a href="{% url 'user_login' %}">Entrar</a>
+                    <a href="{% url 'addUser' %}">Cadastrar</a>
+                {% endif %}
+            </div>
+        </nav>
+        
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Automan. Todos os direitos reservados.</p>
+        <p>Política de Privacidade | Termos de Serviço</p>
+    </footer>
+
+    {% block js %}{% endblock %}
+</body>
+
+</html>

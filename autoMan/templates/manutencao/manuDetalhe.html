@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalhes da Manutenção{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Detalhes da Manutenção</h2>
+    
+    <div class="detail-container">
+        <h3>Informações da Manutenção</h3>
+        <ul>
+            <li><strong>ID:</strong> {{ manutencao.id }}</li>
+            <li><strong>Data:</strong> {{ manutencao.data }}</li>
+            <li><strong>Tipo Serviço:</strong> {{ manutencao.tipoServico}}</li>
+            <li><strong>Veículo:</strong> {{ manutencao.veiculo }}</li>
+            <li><strong>Oficina:</strong> {{ manutencao.oficina }}</li>
+            <li><strong>usuario:</strong> {{ manutencao.usuario }}</li>
+            <li><strong>Custo:</strong> {{ manutencao.custo}}</li>
+        </ul>
+        <a href="{% url 'manuEditar' manutencao.id %}" class="btn btn-warning">Editar</a>
+        <a href="{% url 'manuListar' %}" class="btn btn-secondary">Voltar</a>
+    </div>
+</div>
+{% endblock %}

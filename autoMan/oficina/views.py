@@ -11,8 +11,10 @@ def oficinaAdd(request):
     if request.method == 'POST':
         ofi = OficinaF(request.POST, request.FILES)
         if ofi.is_valid():
+            oficina = ofi.save(commit=False) 
+            oficina.usuario = request.user 
             ofi.save()
-            return redirect('oficina')
+            return redirect('oficinaListar')
     else:
         ofi = OficinaF()
     return render(request, 'oficina/oficinaAdd.html',{'ofi' : OficinaF})
@@ -21,14 +23,15 @@ def oficinaAdd(request):
 
 @login_required
 def oficinaListar(request):
-    oficinas =  get_object_or_404(Oficina)
-    return render(request, 'oficina/oficinaListar.html', {'oficinas' : oficinas})
+    oficinas = Oficina.objects.all()  
+    return render(request, 'oficina/oficinaListar.html', {'oficinas': oficinas})
+
 
 #---------------------------------------------------------------------------------
 
 @login_required
-def oficinaEditar(request):
-    ofi = get_object_or_404(Oficina, pk = id)
+def oficinaEditar(request, id):
+    ofi = get_object_or_404(Oficina, id = id)
     if request.method == 'POST':
         ofi = OficinaF(request.POST, request.FILES, instance = ofi)
         if ofi.is_valid():
@@ -47,5 +50,11 @@ def oficinaDeletar(request, id):
         ofi.delete()
         return redirect('oficinaListar')
     return render(request, 'oficina/oficinaDeletar.html', {'ofi' : ofi})
+
+#---------------------------------------------------------------------------------
+
+def oficinaDetalhe(request, id):
+    oficina = get_object_or_404(Oficina, id=id)
+    return render(request, 'oficina/oficinaDetalhe.html', {'oficina': oficina})
 
 #---------------------------------------------------------------------------------

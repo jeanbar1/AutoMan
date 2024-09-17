@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2>Lista de Oficinas</h2>
+    
+    <!-- Botão para adicionar uma nova oficina -->
+    <div class="mb-3">
+        <a href="{% url 'oficinaAdd' %}" class="btn btn-primary">Adicionar Oficina</a>
+    </div>
+    
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="bg-primary text-white">
+            <tr>
+                <th>Nome</th>
+                <th>Especialidade</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for oficina in oficinas %}
+            <tr>
+                <td>{{ oficina.nome }}</td>
+                <td>{{ oficina.especialidade }}</td>
+                <td>{{ oficina.telefone }}</td>
+                <td>{{ oficina.endereco }}</td>
+                <td>
+                    <a href="{% url 'oficinaEditar' oficina.id %}" class="btn btn-warning">Editar</a>
+                    <a href="{% url 'oficinaDeletar' oficina.id %}" class="btn btn-danger">Excluir</a>
+                    <a href="{% url 'oficinaDetalhe' oficina.id %}" class="btn btn-info">Detalhes</a>
+                </td>
+                
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">Nenhuma oficina cadastrada.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

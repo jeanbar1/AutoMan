@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Listagem de Manutenções - Automan{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4 text-primary">Lista de Manutenções</h1>
+
+    <div class="mb-3">
+        <a href="{% url 'manuadd' %}" class="btn btn-primary">Adicionar Manutenção</a>
+    </div>
+    {% if manutencao %}
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="bg-primary text-white">
+                <tr>
+                    
+                    <th>Veículo</th>
+                    <th>Tipo de Serviço</th>
+                    <th>Data</th>
+                    <th>Custo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in manutencao %}
+                <tr>
+                    
+                    <td>{{ item.veiculo }}</td>
+                    <td>{{ item.tipoServico }}</td>
+                    <td>{{ item.data|date:"d/m/Y" }}</td>
+                    <td>R$ {{ item.custo|floatformat:2 }}</td>
+                    <td>
+                        <a href="{% url 'manuEditar' item.id %}" class="btn btn-warning">Editar</a>
+                        <a href="{% url 'manuDeletar' item.id %}" class="btn btn-danger">Excluir</a>
+                        <a href="{% url 'manuDetalhe' item.id %}" class="btn btn-info">Detalhes</a>
+                    </td>
+                    
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="text-center text-danger">Nenhuma manutenção encontrada.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p class="text-center text-warning">Nenhuma manutenção cadastrada.</p>
+    {% endif %}
+</div>
+{% endblock %}

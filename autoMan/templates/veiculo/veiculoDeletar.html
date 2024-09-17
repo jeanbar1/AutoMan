@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Deletar Veículo</h1>
+    <div class="form-container">
+        <p>Tem certeza que deseja deletar o veículo "{{ veiculo.modelo }}"?</p>
+        <form method="post">
+            {% csrf_token %}
+                <button class="btn btn-danger btn-sm" type="submit">Confirmar Deleção</button>
+                <a href="{% url 'veiculoListar' %}" class="btn btn-info btn-sm">Cancelar</a>
+        </form>
+    </div>
+</div>
+{% endblock %}

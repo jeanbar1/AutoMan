@@ -73,6 +73,46 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -81,6 +121,159 @@
         "documentation": {}
     },
     {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -145,35 +338,75 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Oficina",
+        "importPath": "oficina.models",
+        "description": "oficina.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "oficina.models",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Veiculo",
+        "importPath": "veiculo.models",
+        "description": "veiculo.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "veiculo.models",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -334,46 +567,6 @@
         "description": "django.contrib.auth.decorators",
         "isExtraImport": true,
         "detail": "django.contrib.auth.decorators",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -466,7 +659,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'manutencao',",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -475,7 +668,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'manutencao',\n    'oficina',\n    'user',",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -493,7 +686,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "ROOT_URLCONF = 'autoMan.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "ROOT_URLCONF = 'autoMan.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            BASE_DIR / 'templates', ],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -502,7 +695,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            BASE_DIR / 'templates', ],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -538,7 +731,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "LANGUAGE_CODE = 'pt-BR'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [BASE_DIR / 'static']",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -547,7 +740,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [BASE_DIR / 'static']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -556,7 +749,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [BASE_DIR / 'static']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -565,7 +758,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [BASE_DIR / 'static']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = 'user_login'",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -574,7 +767,25 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [BASE_DIR / 'static']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = 'user_login'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [BASE_DIR / 'static']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = 'user_login'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'static']\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = 'user_login'",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -583,7 +794,16 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.settings",
         "description": "autoMan.autoMan.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = 'user_login'",
+        "detail": "autoMan.autoMan.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "autoMan.autoMan.settings",
+        "description": "autoMan.autoMan.settings",
+        "peekOfCode": "LOGIN_URL = 'user_login'",
         "detail": "autoMan.autoMan.settings",
         "documentation": {}
     },
@@ -592,7 +812,7 @@
         "kind": 5,
         "importPath": "autoMan.autoMan.urls",
         "description": "autoMan.autoMan.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('manutencao/', include('manutencao.urls')),\n    path('oficina/', include('oficina.urls')),\n    path('veiculo/', include('veiculo.urls')),\n    path('user/', include('user.urls')),\n    path('', include('manutencao.urls')),\n]",
         "detail": "autoMan.autoMan.urls",
         "documentation": {}
     },
@@ -603,6 +823,24 @@
         "description": "autoMan.autoMan.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "autoMan.autoMan.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "autoMan.manutencao.migrations.0001_initial",
+        "description": "autoMan.manutencao.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('oficina', '0001_initial'),\n        ('veiculo', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Manutencao',\n            fields=[",
+        "detail": "autoMan.manutencao.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "autoMan.manutencao.migrations.0002_manutencao_usuario",
+        "description": "autoMan.manutencao.migrations.0002_manutencao_usuario",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('manutencao', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='manutencao',\n            name='usuario',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "autoMan.manutencao.migrations.0002_manutencao_usuario",
         "documentation": {}
     },
     {
@@ -619,7 +857,7 @@
         "kind": 6,
         "importPath": "autoMan.manutencao.forms",
         "description": "autoMan.manutencao.forms",
-        "peekOfCode": "class ManutencaoF(forms.ModelForm):\n    class Meta:\n        model = Manutencao\n        fields = ['veiculo', 'tipoServico', 'data_manutencao', 'preco']\n        widgets = {\n            'veiculo': forms.Select(attrs={'class': 'form-control'}),\n            'tipoServico': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'tipoServico'}),\n            'data_manutencao': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),\n            'preco': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Preço'}),\n        }",
+        "peekOfCode": "class ManutencaoF(forms.ModelForm):\n    class Meta:\n        model = Manutencao\n        fields = ['veiculo', 'oficina', 'tipoServico', 'data', 'custo']\n        widgets = {\n            'veiculo': forms.Select(attrs={'class': 'form-control'}),\n            'oficina': forms.Select(attrs={'class': 'form-control'}),\n            'tipoServico': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Tipo de Serviço'}),\n            'data': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),\n            'custo': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Preço'}),",
         "detail": "autoMan.manutencao.forms",
         "documentation": {}
     },
@@ -628,44 +866,71 @@
         "kind": 6,
         "importPath": "autoMan.manutencao.models",
         "description": "autoMan.manutencao.models",
-        "peekOfCode": "class Manutencao(models.Model):\n    veiculo = models.ForeignKey('veiculo.Veiculo', on_delete=models.CASCADE)\n    oficina = models.ForeignKey('oficina.Oficina', on_delete=models.CASCADE)\n    data = models.DateField()\n    tipoServico = models.CharField(max_length=100)\n    custo = models.DecimalField(max_digits=10, decimal_places=2)",
+        "peekOfCode": "class Manutencao(models.Model):\n    usuario = models.ForeignKey(User, on_delete=models.CASCADE)\n    veiculo = models.ForeignKey(Veiculo, on_delete=models.CASCADE)\n    oficina = models.ForeignKey(Oficina, on_delete=models.CASCADE)\n    data = models.DateField()\n    tipoServico = models.CharField(max_length=100)\n    custo = models.DecimalField(max_digits=10, decimal_places=2)",
         "detail": "autoMan.manutencao.models",
         "documentation": {}
     },
     {
-        "label": "oficinaAdd",
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "autoMan.manutencao.urls",
+        "description": "autoMan.manutencao.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.manuListar, name='manuListar'),\n    path('add/', views.manuadd, name='manuadd'),\n    path('editar/<int:id>/', views.manuEditar, name='manuEditar'),\n    path('detalhe/<int:id>/', views.manuDetalhe, name='manuDetalhe'),\n    path('deletar/<int:id>/', views.manuDeletar, name='manuDeletar'),\n]",
+        "detail": "autoMan.manutencao.urls",
+        "documentation": {}
+    },
+    {
+        "label": "manuadd",
         "kind": 2,
         "importPath": "autoMan.manutencao.views",
         "description": "autoMan.manutencao.views",
-        "peekOfCode": "def oficinaAdd(request):\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST)\n        if manu.is_valid():\n            manutencao = manu.save(commit = False)\n            manutencao.usuario = request.user\n            manutencao.save()\n            return redirect('home')\n    else:\n        manu = ManutencaoF()",
+        "peekOfCode": "def manuadd(request):\n    if request.method == 'POST':\n        form = ManutencaoF(request.POST)\n        if form.is_valid():\n            manutencao = form.save(commit=False)\n            manutencao.usuario = request.user\n            manutencao.save()\n            return redirect('manuListar')\n    else:\n        form = ManutencaoF()",
         "detail": "autoMan.manutencao.views",
         "documentation": {}
     },
     {
-        "label": "oficinaListar",
+        "label": "manuListar",
         "kind": 2,
         "importPath": "autoMan.manutencao.views",
         "description": "autoMan.manutencao.views",
-        "peekOfCode": "def oficinaListar(request):\n    usuario = request.user\n    manutencao = Manutencao.objects.filter(usuario = usuario)\n    return render(request, 'manutencao/oficinaListar.html', {'manutencao': manutencao})\n#---------------------------------------------------------------------------------\n@login_required\ndef oficinaEditar(request, id):\n    manutencao = get_object_or_404(Manutencao, pk = id)\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST, instance= manutencao)",
+        "peekOfCode": "def manuListar(request):\n    manutencao = Manutencao.objects.all()\n    return render(request, 'manutencao/manuListar.html', {'manutencao': manutencao})\n#---------------------------------------------------------------------------------\n@login_required\ndef manuEditar(request, id):\n    manutencao = get_object_or_404(Manutencao, id = id)\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST, instance= manutencao)\n        if manu.is_valid():",
         "detail": "autoMan.manutencao.views",
         "documentation": {}
     },
     {
-        "label": "oficinaEditar",
+        "label": "manuEditar",
         "kind": 2,
         "importPath": "autoMan.manutencao.views",
         "description": "autoMan.manutencao.views",
-        "peekOfCode": "def oficinaEditar(request, id):\n    manutencao = get_object_or_404(Manutencao, pk = id)\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST, instance= manutencao)\n        if manu.is_valid():\n            manu.save()\n            return redirect('home')\n    else:\n        manu = ManutencaoF(instance = manutencao)\n    return render(request, 'manutencao/oficinaEditar.html', {'manutencao': manu})",
+        "peekOfCode": "def manuEditar(request, id):\n    manutencao = get_object_or_404(Manutencao, id = id)\n    if request.method == 'POST':\n        manu = ManutencaoF(request.POST, instance= manutencao)\n        if manu.is_valid():\n            manu.save()\n            return redirect('manuListar')\n    else:\n        manu = ManutencaoF(instance = manutencao)\n    return render(request, 'manutencao/manuEditar.html', {'manutencao': manu})",
         "detail": "autoMan.manutencao.views",
         "documentation": {}
     },
     {
-        "label": "oficinaDeletar",
+        "label": "manuDeletar",
         "kind": 2,
         "importPath": "autoMan.manutencao.views",
         "description": "autoMan.manutencao.views",
-        "peekOfCode": "def oficinaDeletar(request, id):\n        manutencao = get_object_or_404(Manutencao, pk=id, usuario=request.user)\n        if request.method == 'POST':\n            manutencao.delete()\n            return redirect('home')\n        return render(request, 'manutencao/oficinaDeletar.html', {'manutencao': manutencao})\n#---------------------------------------------------------------------------------",
+        "peekOfCode": "def manuDeletar(request, id):\n        manutencao = get_object_or_404(Manutencao, pk=id, usuario=request.user)\n        if request.method == 'POST':\n            manutencao.delete()\n            return redirect('manuListar')\n        return render(request, 'manutencao/manuDeletar.html', {'manutencao': manutencao})\n#---------------------------------------------------------------------------------\n@login_required\ndef manuDetalhe(request, id):\n    manutencao = get_object_or_404(Manutencao, id=id)",
         "detail": "autoMan.manutencao.views",
+        "documentation": {}
+    },
+    {
+        "label": "manuDetalhe",
+        "kind": 2,
+        "importPath": "autoMan.manutencao.views",
+        "description": "autoMan.manutencao.views",
+        "peekOfCode": "def manuDetalhe(request, id):\n    manutencao = get_object_or_404(Manutencao, id=id)\n    return render(request, 'manutencao/manuDetalhe.html', {'manutencao': manutencao})\n#---------------------------------------------------------------------------------",
+        "detail": "autoMan.manutencao.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "autoMan.oficina.migrations.0001_initial",
+        "description": "autoMan.oficina.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Oficina',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "autoMan.oficina.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -682,7 +947,7 @@
         "kind": 6,
         "importPath": "autoMan.oficina.forms",
         "description": "autoMan.oficina.forms",
-        "peekOfCode": "class OficinaF(forms.ModelForm):\n    class Meta:\n        model = Oficina\n        fields = ['nome', 'endereco', 'telefone', 'especialidade']\n        def __init__(self, *args, **kwargs):\n            super(OficinaF, self).__init__(*args, **kwargs)\n            for field in self.fields:\n                self.fields[field].widget.attrs.update({'class': 'form-control'})",
+        "peekOfCode": "class OficinaF(forms.ModelForm):\n    class Meta:\n        model = Oficina\n        fields = ['nome', 'endereco', 'telefone', 'especialidade']\n        widgets = {\n            'nome': forms.TextInput(attrs={\n                'class': 'form-control', 'placeholder': 'Nome da Oficina', 'aria-label': 'Nome da Oficina', 'maxlength': '100', 'style': 'width: 100%;'\n            }),\n            'endereco': forms.Textarea(attrs={\n                'class': 'form-control', 'placeholder': 'Endereço da Oficina', 'aria-label': 'Endereço da Oficina', 'rows': 3, 'maxlength': '255', 'style': 'width: 100%;'",
         "detail": "autoMan.oficina.forms",
         "documentation": {}
     },
@@ -691,8 +956,17 @@
         "kind": 6,
         "importPath": "autoMan.oficina.models",
         "description": "autoMan.oficina.models",
-        "peekOfCode": "class Oficina(models.Model):\n    nome = models.CharField(max_length=200)\n    endereco = models.CharField(max_length=500)\n    telefone = models.CharField(max_length=11)\n    especialidade = models.CharField(max_length=100)\n    usuario = models.ForeignKey(User, on_delete=models.CASCADE) \n    def __str__(self):\n        return self.modelo",
+        "peekOfCode": "class Oficina(models.Model):\n    nome = models.CharField(max_length=200)\n    endereco = models.CharField(max_length=500)\n    telefone = models.CharField(max_length=11)\n    especialidade = models.CharField(max_length=100)\n    usuario = models.ForeignKey(User, on_delete=models.CASCADE) \n    def __str__(self):\n        return self.nome",
         "detail": "autoMan.oficina.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "autoMan.oficina.urls",
+        "description": "autoMan.oficina.urls",
+        "peekOfCode": "urlpatterns = [\n    path('listar/', views.oficinaListar, name='oficinaListar'),\n    path('add/', views.oficinaAdd, name='oficinaAdd'),\n    path('editar/<int:id>/', views.oficinaEditar, name='oficinaEditar'),\n    path('detalhe/<int:id>/', views.oficinaDetalhe, name='oficinaDetalhe'), \n    path('excluir/<int:id>/', views.oficinaDeletar, name='oficinaDeletar'),\n]",
+        "detail": "autoMan.oficina.urls",
         "documentation": {}
     },
     {
@@ -700,7 +974,7 @@
         "kind": 2,
         "importPath": "autoMan.oficina.views",
         "description": "autoMan.oficina.views",
-        "peekOfCode": "def oficinaAdd(request):\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES)\n        if ofi.is_valid():\n            ofi.save()\n            return redirect('oficina')\n    else:\n        ofi = OficinaF()\n    return render(request, 'oficina/oficinaAdd.html',{'ofi' : OficinaF})\n#---------------------------------------------------------------------------------",
+        "peekOfCode": "def oficinaAdd(request):\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES)\n        if ofi.is_valid():\n            oficina = ofi.save(commit=False) \n            oficina.usuario = request.user \n            ofi.save()\n            return redirect('oficinaListar')\n    else:\n        ofi = OficinaF()",
         "detail": "autoMan.oficina.views",
         "documentation": {}
     },
@@ -709,7 +983,7 @@
         "kind": 2,
         "importPath": "autoMan.oficina.views",
         "description": "autoMan.oficina.views",
-        "peekOfCode": "def oficinaListar(request):\n    oficinas =  get_object_or_404(Oficina)\n    return render(request, 'oficina/oficinaListar.html', {'oficinas' : oficinas})\n#---------------------------------------------------------------------------------\n@login_required\ndef oficinaEditar(request):\n    ofi = get_object_or_404(Oficina, pk = id)\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES, instance = ofi)\n        if ofi.is_valid():",
+        "peekOfCode": "def oficinaListar(request):\n    oficinas = Oficina.objects.all()  \n    return render(request, 'oficina/oficinaListar.html', {'oficinas': oficinas})\n#---------------------------------------------------------------------------------\n@login_required\ndef oficinaEditar(request, id):\n    ofi = get_object_or_404(Oficina, id = id)\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES, instance = ofi)\n        if ofi.is_valid():",
         "detail": "autoMan.oficina.views",
         "documentation": {}
     },
@@ -718,7 +992,7 @@
         "kind": 2,
         "importPath": "autoMan.oficina.views",
         "description": "autoMan.oficina.views",
-        "peekOfCode": "def oficinaEditar(request):\n    ofi = get_object_or_404(Oficina, pk = id)\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES, instance = ofi)\n        if ofi.is_valid():\n            ofi.save()\n            return redirect('oficinaListar')\n    else:\n        ofi = OficinaF(instance = ofi)\n    return render(request, 'oficina/oficinaEditar.html', {'ofi' : ofi})",
+        "peekOfCode": "def oficinaEditar(request, id):\n    ofi = get_object_or_404(Oficina, id = id)\n    if request.method == 'POST':\n        ofi = OficinaF(request.POST, request.FILES, instance = ofi)\n        if ofi.is_valid():\n            ofi.save()\n            return redirect('oficinaListar')\n    else:\n        ofi = OficinaF(instance = ofi)\n    return render(request, 'oficina/oficinaEditar.html', {'ofi' : ofi})",
         "detail": "autoMan.oficina.views",
         "documentation": {}
     },
@@ -727,8 +1001,26 @@
         "kind": 2,
         "importPath": "autoMan.oficina.views",
         "description": "autoMan.oficina.views",
-        "peekOfCode": "def oficinaDeletar(request, id):\n    ofi = get_object_or_404(Oficina, pk = id, usuario = request.user)\n    if request.method == 'POST':\n        ofi.delete()\n        return redirect('oficinaListar')\n    return render(request, 'oficina/oficinaDeletar.html', {'ofi' : ofi})\n#---------------------------------------------------------------------------------",
+        "peekOfCode": "def oficinaDeletar(request, id):\n    ofi = get_object_or_404(Oficina, pk = id, usuario = request.user)\n    if request.method == 'POST':\n        ofi.delete()\n        return redirect('oficinaListar')\n    return render(request, 'oficina/oficinaDeletar.html', {'ofi' : ofi})\n#---------------------------------------------------------------------------------\ndef oficinaDetalhe(request, id):\n    oficina = get_object_or_404(Oficina, id=id)\n    return render(request, 'oficina/oficinaDetalhe.html', {'oficina': oficina})",
         "detail": "autoMan.oficina.views",
+        "documentation": {}
+    },
+    {
+        "label": "oficinaDetalhe",
+        "kind": 2,
+        "importPath": "autoMan.oficina.views",
+        "description": "autoMan.oficina.views",
+        "peekOfCode": "def oficinaDetalhe(request, id):\n    oficina = get_object_or_404(Oficina, id=id)\n    return render(request, 'oficina/oficinaDetalhe.html', {'oficina': oficina})\n#---------------------------------------------------------------------------------",
+        "detail": "autoMan.oficina.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "autoMan.user.migrations.0001_initial",
+        "description": "autoMan.user.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Usuario',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "autoMan.user.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -745,7 +1037,7 @@
         "kind": 6,
         "importPath": "autoMan.user.forms",
         "description": "autoMan.user.forms",
-        "peekOfCode": "class UserLogin(AuthenticationForm):\n    username = forms.CharField(label=\"nome de usuário\", widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}))\n    password = forms.CharField(label=\"senha\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\nclass addUser(forms.ModelForm):\n    password = forms.CharField(label=\"senha\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    confirmaPassword = forms.CharField(label=\"confirma\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    class Meta:\n        model = User\n        fields = ['username', 'password', 'email']\n        widgets = {",
+        "peekOfCode": "class UserLogin(AuthenticationForm):\n    username = forms.CharField(\n        label=\"nome de usuário\", \n        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'})\n    )\n    password = forms.CharField(\n        label=\"senha\", \n        widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'})\n    )\nclass addUser(forms.ModelForm):",
         "detail": "autoMan.user.forms",
         "documentation": {}
     },
@@ -754,7 +1046,7 @@
         "kind": 6,
         "importPath": "autoMan.user.forms",
         "description": "autoMan.user.forms",
-        "peekOfCode": "class addUser(forms.ModelForm):\n    password = forms.CharField(label=\"senha\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    confirmaPassword = forms.CharField(label=\"confirma\", widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'}))\n    class Meta:\n        model = User\n        fields = ['username', 'password', 'email']\n        widgets = {\n            'username': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Username'}),\n            'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Email'}),\n        }",
+        "peekOfCode": "class addUser(forms.ModelForm):\n    password = forms.CharField(\n        label=\"senha\", \n        widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'})\n    )\n    confirmaPassword = forms.CharField(\n        label=\"confirma\", \n        widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'})\n    )\n    class Meta:",
         "detail": "autoMan.user.forms",
         "documentation": {}
     },
@@ -763,7 +1055,7 @@
         "kind": 6,
         "importPath": "autoMan.user.forms",
         "description": "autoMan.user.forms",
-        "peekOfCode": "class UsuarioForm(forms.ModelForm):\n    class Meta:\n        model = Usuario\n        fields = ['nome', 'cpf', 'telefone', 'endereco']\n        widgets = {\n            'nome': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Nome'}),\n            'cpf': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'CPF'}),\n            'telefone': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Telefone'}),\n            'endereco': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Endereco'}),\n        }",
+        "peekOfCode": "class UsuarioForm(forms.ModelForm):\n    class Meta:\n        model = Usuario\n        fields = ['nome', 'cpf', 'telefone', 'endereco']\n        widgets = {\n            'nome': forms.TextInput(attrs={'class': 'form-control input-lg', 'placeholder': 'Nome'}),\n            'cpf': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'CPF'}),\n            'telefone': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Telefone'}),\n            'endereco': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Endereco'}),\n        }",
         "detail": "autoMan.user.forms",
         "documentation": {}
     },
@@ -774,6 +1066,15 @@
         "description": "autoMan.user.models",
         "peekOfCode": "class Usuario(models.Model):\n    user = models.OneToOneField(User, on_delete = models.CASCADE)\n    nome = models.CharField(max_length= 100)\n    cpf = models.CharField(max_length= 11, unique=True)\n    telefone = models.CharField(max_length=11)\n    endereco = models.CharField(max_length=500)\n    def __str__(self):\n        return self.nome",
         "detail": "autoMan.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "autoMan.user.urls",
+        "description": "autoMan.user.urls",
+        "peekOfCode": "urlpatterns = [\n    path('addUser/', useradd, name='addUser'),\n    path('login/', user_login, name='user_login'),\n    path('logout/', user_logout, name='userlogout' ), \n    path('edit/<int:usuario_id>/', views.editar, name='user_edit'),\n    path('perfil/<int:usuario_id>/', views.perfil, name='user_detail'),\n    path('delete/<int:id>', views.excluirP, name='user_delete'),\n]",
+        "detail": "autoMan.user.urls",
         "documentation": {}
     },
     {
@@ -790,7 +1091,7 @@
         "kind": 2,
         "importPath": "autoMan.user.views",
         "description": "autoMan.user.views",
-        "peekOfCode": "def editar(request, usuario_id):\n    usuario = get_object_or_404(Usuario, pk=usuario_id)\n    if request.user.is_staff or request.user == usuario.user:\n        if request.method == 'POST':\n            edt = UsuarioForm(request.POST, request.FILES, instance=usuario)\n            if edt.is_valid():\n                edt.save()\n                return redirect('home')\n        else:\n            edt = UsuarioForm(instance=usuario)",
+        "peekOfCode": "def editar(request, usuario_id):\n    usuario = get_object_or_404(Usuario, id=usuario_id)\n    print(f\"Usuário para edição: {usuario.id}, {usuario.nome}\")\n    if request.user.is_staff or request.user == usuario.user:\n        if request.method == 'POST':\n            form = UsuarioForm(request.POST, request.FILES, instance=usuario)\n            if form.is_valid():\n                form.save()\n                print(f\"Redirecionando para perfil com ID: {usuario.id}\")\n                return redirect('user_detail', usuario_id=usuario.id)",
         "detail": "autoMan.user.views",
         "documentation": {}
     },
@@ -799,7 +1100,7 @@
         "kind": 2,
         "importPath": "autoMan.user.views",
         "description": "autoMan.user.views",
-        "peekOfCode": "def perfil(request):\n    usuario = get_object_or_404(Usuario, pk=request.user.id)\n    return render(request, 'perfil.html', {'usuario': usuario})\n#----------------------------------------------------------------\n@login_required\ndef excluirP(request):\n    if request.method == 'POST':\n        user = get_object_or_404(User, pk=request.user.id)\n        try: \n            usuario = Usuario.objects.get(user=user)",
+        "peekOfCode": "def perfil(request, usuario_id):\n    usuario = get_object_or_404(Usuario, id=usuario_id)\n    return render(request, 'user/perfil.html', {'usuario': usuario})\n#----------------------------------------------------------------\n@login_required\ndef excluirP(request, id):\n    if request.method == 'POST':\n        user = get_object_or_404(User, id=id)\n        try:\n            usuario = Usuario.objects.get(user=user)",
         "detail": "autoMan.user.views",
         "documentation": {}
     },
@@ -808,7 +1109,7 @@
         "kind": 2,
         "importPath": "autoMan.user.views",
         "description": "autoMan.user.views",
-        "peekOfCode": "def excluirP(request):\n    if request.method == 'POST':\n        user = get_object_or_404(User, pk=request.user.id)\n        try: \n            usuario = Usuario.objects.get(user=user)\n            usuario.delete()\n        except Usuario.DoesNotExist:\n            pass\n        user.delete()\n        return redirect('login')",
+        "peekOfCode": "def excluirP(request, id):\n    if request.method == 'POST':\n        user = get_object_or_404(User, id=id)\n        try:\n            usuario = Usuario.objects.get(user=user)\n            usuario.delete()\n        except Usuario.DoesNotExist:\n            pass\n        user.delete()\n        return redirect('user_login')",
         "detail": "autoMan.user.views",
         "documentation": {}
     },
@@ -817,7 +1118,7 @@
         "kind": 2,
         "importPath": "autoMan.user.views",
         "description": "autoMan.user.views",
-        "peekOfCode": "def user_login(request):\n    if request.method == 'POST':\n        login_form = UserLogin(data=request.POST)\n        if login_form.is_valid():\n            user = login_form.get_user()\n            auth_login(request, user)\n            return redirect('home')\n    else:\n        login_form = UserLogin()\n    return render(request, 'login/login.html', {'login': login_form})",
+        "peekOfCode": "def user_login(request):\n    if request.method == 'POST':\n        login_form = UserLogin(data=request.POST)\n        if login_form.is_valid():\n            user = login_form.get_user()\n            auth_login(request, user)\n            return redirect('manuListar')\n    else:\n        login_form = UserLogin()\n    return render(request, 'user/login.html', {'login': login_form})",
         "detail": "autoMan.user.views",
         "documentation": {}
     },
@@ -826,8 +1127,17 @@
         "kind": 2,
         "importPath": "autoMan.user.views",
         "description": "autoMan.user.views",
-        "peekOfCode": "def user_logout(request):\n    auth_logout(request)\n    return redirect('login')",
+        "peekOfCode": "def user_logout(request):\n    auth_logout(request)\n    return redirect('user_login')",
         "detail": "autoMan.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "autoMan.veiculo.migrations.0001_initial",
+        "description": "autoMan.veiculo.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Veiculo',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "autoMan.veiculo.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -858,11 +1168,20 @@
         "documentation": {}
     },
     {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "autoMan.veiculo.urls",
+        "description": "autoMan.veiculo.urls",
+        "peekOfCode": "urlpatterns = [\n    path('add/', views.veiculoAdd, name='veiculoAdd'),\n    path('listar/', views.veiculoListar, name='veiculoListar'),\n    path('editar/<int:id>/', views.veiculoEditar, name='veiculoEditar'),\n    path('detalhe/<int:id>/', views.veiculoDetalhe, name='veiculoDetalhe'),\n    path('excluir/<int:id>/', views.veiculoDeletar, name='veiculoDeletar'),\n]",
+        "detail": "autoMan.veiculo.urls",
+        "documentation": {}
+    },
+    {
         "label": "veiculoAdd",
         "kind": 2,
         "importPath": "autoMan.veiculo.views",
         "description": "autoMan.veiculo.views",
-        "peekOfCode": "def veiculoAdd(request):\n    if request.method == 'POST':\n        veiculo = VeiculoF(request.POST)\n        if veiculo.is_valid():\n            veiculo.save()\n            return redirect('veiculo')\n    else:\n        veiculo = VeiculoF()\n    return render(request, 'veiculo/veiculo_add.html', {'veiculo': veiculo})\n#---------------------------------------------------------------------------------",
+        "peekOfCode": "def veiculoAdd(request):\n    if request.method == 'POST':\n        form = VeiculoF(request.user, request.POST)\n        if form.is_valid():\n            veiculo = form.save(commit=False)\n            veiculo.usuario = request.user  \n            veiculo.save()\n            return redirect('veiculoListar')\n    else:\n        form = VeiculoF(request.user)",
         "detail": "autoMan.veiculo.views",
         "documentation": {}
     },
@@ -871,7 +1190,7 @@
         "kind": 2,
         "importPath": "autoMan.veiculo.views",
         "description": "autoMan.veiculo.views",
-        "peekOfCode": "def veiculoEditar(request, id):\n    veiculo = get_object_or_404(Veiculo, pk = id)\n    if request.method == 'POST':\n        veicu = VeiculoF(request.POST, instance = veiculo)\n        if veicu.is_valid():\n            veicu.save()\n            return redirect('veiculoLista')\n    else:\n        veicu = VeiculoF(instance = veiculo)\n    return render(request, 'veiculo/veiculoEditar.html', {'veiculo': veiculo})",
+        "peekOfCode": "def veiculoEditar(request, id):\n    veiculo = get_object_or_404(Veiculo, pk=id)\n    if request.method == 'POST':\n        form = VeiculoF(user=request.user, data=request.POST, instance=veiculo)\n        if form.is_valid():\n            form.save()\n            return redirect('veiculoListar')\n    else:\n        form = VeiculoF(user=request.user, instance=veiculo)\n    return render(request, 'veiculo/veiculoEditar.html', {'veiculos_form': form})",
         "detail": "autoMan.veiculo.views",
         "documentation": {}
     },
@@ -880,16 +1199,16 @@
         "kind": 2,
         "importPath": "autoMan.veiculo.views",
         "description": "autoMan.veiculo.views",
-        "peekOfCode": "def veiculoDeletar(request, id):\n    veiculo = get_object_or_404(Veiculo, pk = id, usuario = request.user)\n    if request.method == 'POST':\n        veiculo.delete()\n        return redirect('veiculoLista')\n    return render(request, 'veiculo/veiculoDeletar.html', {'veiculo': veiculo})\n#----------------------------------------------------------------------------------\ndef veiculoLista(request ):\n    veicu = Veiculo.objects.all()\n    return render(request, 'veiculo/veiculoListar.html', {'veiculo': veicu})",
+        "peekOfCode": "def veiculoDeletar(request, id):\n    veiculo = get_object_or_404(Veiculo, id = id, proprietario = request.user)\n    if request.method == 'POST':\n        veiculo.delete()\n        return redirect('veiculoListar')\n    return render(request, 'veiculo/veiculoDeletar.html', {'veiculo': veiculo})\n#----------------------------------------------------------------------------------\n@login_required\ndef veiculoListar(request):\n    veiculos = Veiculo.objects.all()",
         "detail": "autoMan.veiculo.views",
         "documentation": {}
     },
     {
-        "label": "veiculoLista",
+        "label": "veiculoListar",
         "kind": 2,
         "importPath": "autoMan.veiculo.views",
         "description": "autoMan.veiculo.views",
-        "peekOfCode": "def veiculoLista(request ):\n    veicu = Veiculo.objects.all()\n    return render(request, 'veiculo/veiculoListar.html', {'veiculo': veicu})\n#----------------------------------------------------------------------------------\n@login_required\ndef veiculoDetalhe(request, id):\n    veicu = get_object_or_404(Veiculo, pk=id)\n    return render(request,'veiculo/veiculoDetalhe.html', {'veiculo': veicu})\n#----------------------------------------------------------------------------------",
+        "peekOfCode": "def veiculoListar(request):\n    veiculos = Veiculo.objects.all()\n    return render(request, 'veiculo/veiculoListar.html', {'veiculos': veiculos})\n#----------------------------------------------------------------------------------\n@login_required\ndef veiculoDetalhe(request, id):\n    veiculo = get_object_or_404(Veiculo, id=id)\n    return render(request, 'veiculo/veiculoDetalhe.html', {'veiculo': veiculo})\n#----------------------------------------------------------------------------------",
         "detail": "autoMan.veiculo.views",
         "documentation": {}
     },
@@ -898,7 +1217,7 @@
         "kind": 2,
         "importPath": "autoMan.veiculo.views",
         "description": "autoMan.veiculo.views",
-        "peekOfCode": "def veiculoDetalhe(request, id):\n    veicu = get_object_or_404(Veiculo, pk=id)\n    return render(request,'veiculo/veiculoDetalhe.html', {'veiculo': veicu})\n#----------------------------------------------------------------------------------",
+        "peekOfCode": "def veiculoDetalhe(request, id):\n    veiculo = get_object_or_404(Veiculo, id=id)\n    return render(request, 'veiculo/veiculoDetalhe.html', {'veiculo': veiculo})\n#----------------------------------------------------------------------------------",
         "detail": "autoMan.veiculo.views",
         "documentation": {}
     },

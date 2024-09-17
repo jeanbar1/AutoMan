@@ -12,9 +12,11 @@ class VeiculoF(forms.ModelForm):
             'cor': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Cor'}),
             'proprietario': forms.Select(attrs={'class': 'form-control'}),
             'placa': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Placa'}),
+            
         }
     
-    def __init__(self, user, *args, **kwargs):
+    def __init__(self,user, *args, **kwargs):
+        user = kwargs.pop('user', None)
         super().__init__(*args, **kwargs)
         self.fields['marca'].label = 'Marca'
         self.fields['modelo'].label = 'Modelo'

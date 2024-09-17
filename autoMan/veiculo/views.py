@@ -8,53 +8,57 @@ from .forms import VeiculoF
 #---------------------------------------------------------------------------------
 @login_required
 def veiculoAdd(request):
-
     if request.method == 'POST':
-        veiculo = VeiculoF(request.POST)
-        if veiculo.is_valid():
+        form = VeiculoF(request.user, request.POST)
+        if form.is_valid():
+            veiculo = form.save(commit=False)
+            veiculo.usuario = request.user  
             veiculo.save()
-            return redirect('veiculo')
+            return redirect('veiculoListar')
     else:
-        veiculo = VeiculoF()
-    return render(request, 'veiculo/veiculo_add.html', {'veiculo': veiculo})
+        form = VeiculoF(request.user)
+    
+    return render(request, 'veiculo/veiculoadd.html', {'form': form})
 
 #---------------------------------------------------------------------------------
 
 @login_required
 def veiculoEditar(request, id):
-    veiculo = get_object_or_404(Veiculo, pk = id)
-
+    veiculo = get_object_or_404(Veiculo, pk=id)
+    
     if request.method == 'POST':
-        veicu = VeiculoF(request.POST, instance = veiculo)
-        if veicu.is_valid():
-            veicu.save()
-            return redirect('veiculoLista')
+        form = VeiculoF(user=request.user, data=request.POST, instance=veiculo)
+        if form.is_valid():
+            form.save()
+            return redirect('veiculoListar')
     else:
-        veicu = VeiculoF(instance = veiculo)
-    return render(request, 'veiculo/veiculoEditar.html', {'veiculo': veiculo})
+        form = VeiculoF(user=request.user, instance=veiculo)
+
+    return render(request, 'veiculo/veiculoEditar.html', {'veiculos_form': form})
+
 
 #---------------------------------------------------------------------------------
 
 @login_required
 def veiculoDeletar(request, id):
-    veiculo = get_object_or_404(Veiculo, pk = id, usuario = request.user)
+    veiculo = get_object_or_404(Veiculo, id = id, proprietario = request.user)
     if request.method == 'POST':
         veiculo.delete()
-        return redirect('veiculoLista')
+        return redirect('veiculoListar')
     return render(request, 'veiculo/veiculoDeletar.html', {'veiculo': veiculo})
 
 #----------------------------------------------------------------------------------
+@login_required
+def veiculoListar(request):
+    veiculos = Veiculo.objects.all()
+    return render(request, 'veiculo/veiculoListar.html', {'veiculos': veiculos})
 
-def veiculoLista(request ):
-    veicu = Veiculo.objects.all()
-        
-    return render(request, 'veiculo/veiculoListar.html', {'veiculo': veicu})
 
 #----------------------------------------------------------------------------------
 
 @login_required
 def veiculoDetalhe(request, id):
-    veicu = get_object_or_404(Veiculo, pk=id)
-    return render(request,'veiculo/veiculoDetalhe.html', {'veiculo': veicu})
+    veiculo = get_object_or_404(Veiculo, id=id)
+    return render(request, 'veiculo/veiculoDetalhe.html', {'veiculo': veiculo})
 
 #----------------------------------------------------------------------------------

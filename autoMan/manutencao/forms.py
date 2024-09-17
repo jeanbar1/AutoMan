@@ -1,16 +1,14 @@
 from django import forms
 from .models import Manutencao
 
-
 class ManutencaoF(forms.ModelForm):
     class Meta:
         model = Manutencao
-        fields = ['veiculo', 'tipoServico', 'data_manutencao', 'preco']
+        fields = ['veiculo', 'oficina', 'tipoServico', 'data', 'custo']
         widgets = {
             'veiculo': forms.Select(attrs={'class': 'form-control'}),
-            'tipoServico': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'tipoServico'}),
-            'data_manutencao': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),
-            'preco': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Preço'}),
+            'oficina': forms.Select(attrs={'class': 'form-control'}),
+            'tipoServico': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Tipo de Serviço'}),
+            'data': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),
+            'custo': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Preço'}),
         }
-
-        
